@@ -8,10 +8,14 @@ public class Aplikasi {
         frame.setSize(300, 200);
 
         JLabel lblNama = new JLabel();
-        lblNama.setText("Yogi");
+        lblNama.setText("Yogi Irwan Rizky Saputra");
         frame.add(lblNama, BorderLayout.WEST);
+
         JLabel lblNim = new JLabel();
         lblNim.setText("17090007");
+
+        JLabel lblKelas = new JLabel();
+        lblKelas.setText("4D");
 
         JButton btnSimpan = new JButton("Simpan");
         frame.add(btnSimpan, BorderLayout.EAST);
